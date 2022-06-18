@@ -1,0 +1,8 @@
+#TreeDominator Configuration File
+maxBlocks: 64
+disableOnSneak: true
+disableOnNotSneak: false
+requiresAxe: true
+delayedBreaking: false
+dropTogether: false
+fastLeafDecay: false

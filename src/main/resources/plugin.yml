@@ -1,0 +1,12 @@
+name: TreeDominator
+version: 0.3
+author: Crafty
+main: de.crafty.treedominator.TreeDominator
+
+api-version: 1.17
+
+commands:
+  treedominator:
+    usage: /treedominator <reload>
+    permission: treedominator.cmd
+    description: Basic Command
