@@ -1,5 +1,5 @@
 name: TreeDominator
-version: 0.3
+version: ${version}
 author: Crafty
 main: de.crafty.treedominator.TreeDominator
 
