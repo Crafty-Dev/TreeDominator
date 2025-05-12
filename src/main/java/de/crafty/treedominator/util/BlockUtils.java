@@ -44,7 +44,7 @@ public class BlockUtils {
                         return;
                     }
 
-                    int i = meta.getEnchantLevel(Enchantment.DURABILITY);
+                    int i = meta.getEnchantLevel(Enchantment.UNBREAKING);
                     if (rand.nextInt(i + 1) <= 0 && player.getGameMode() != GameMode.CREATIVE)
                         meta.setDamage(meta.getDamage() + 1);
 

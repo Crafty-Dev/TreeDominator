@@ -2,7 +2,7 @@
 A plugin that allows the user to chop down entire trees by destroying just one block  <br/>
 <br/>
 --NOW WITH INTEGRATED FAST LEAF DECAY-- <br/>
---SUPPORTS 1.19 MANGROVE TREES--  <br/>
+--SUPPORTS 1.21+--  <br/>
 <br/>
 There are a few options that can be changed in the config:  <br/>
 <br/>
@@ -16,6 +16,6 @@ There are a few options that can be changed in the config:  <br/>
 <br/>
 After changing one of these values, the server must be reloaded <br/>
 <br/>
-**Bug, Question or Feature suggestion? Contact me via discord -> Crafty#2476**  <br/>
+**Bug, Question or Feature suggestion? Contact me via discord**  <br/>
 <br/>
 Curseforge: https://www.curseforge.com/minecraft/bukkit-plugins/treedominator

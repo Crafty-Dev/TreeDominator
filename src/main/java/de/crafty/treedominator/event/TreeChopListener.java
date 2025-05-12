@@ -44,7 +44,7 @@ public class TreeChopListener implements Listener {
         //Determining all LogBlocks that belong to the tree/log-construct
         List<Block> allBlocks = BlockUtils.getAttachedBlocks(block);
         List<Block> tmpBlocks = new ArrayList<>(allBlocks);
-        while (tmpBlocks.size() != 0) {
+        while (!tmpBlocks.isEmpty()) {
             List<Block> list = new ArrayList<>();
 
             tmpBlocks.forEach(b -> list.addAll(BlockUtils.getAttachedBlocks(b).stream().filter(b1 -> !allBlocks.contains(b1) && !list.contains(b1) && allBlocks.size() + list.size() != TreeDominator.get().maxBlocks()).toList()));

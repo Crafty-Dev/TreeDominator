@@ -6,3 +6,24 @@ requiresAxe: true
 delayedBreaking: false
 dropTogether: false
 fastLeafDecay: false
+
+validLogs:
+  - OAK_LOG
+  - BIRCH_LOG
+  - DARK_OAK_LOG
+  - ACACIA_LOG
+  - JUNGLE_LOG
+  - SPRUCE_LOG
+  - MANGROVE_LOG
+  - CRIMSON_STEM
+  - WARPED_STEM
+  - CHERRY_LOG
+  - PALE_OAK_LOG
+
+validTools:
+  - WOODEN_AXE
+  - STONE_AXE
+  - IRON_AXE
+  - GOLDEN_AXE
+  - DIAMOND_AXE
+  - NETHERITE_AXE
